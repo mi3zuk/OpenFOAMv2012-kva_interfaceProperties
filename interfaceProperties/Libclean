@@ -1,0 +1,3 @@
+cd "$(dirname "$0")" || exit 1
+wclean
+rm $FOAM_USER_LIBBIN/libinterfaceProperties.so

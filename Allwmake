@@ -1,0 +1,13 @@
+cd "$(dirname "$0")" || exit 1
+
+cd interfaceProperties
+wmake libso
+
+cd ../interFoam
+
+wmake
+
+cd overInterDyMFoam
+wmake
+
+cd ../.. 

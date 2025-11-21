@@ -1,0 +1,1 @@
+# OpenFOAMv2012-kva_interfaceProperties

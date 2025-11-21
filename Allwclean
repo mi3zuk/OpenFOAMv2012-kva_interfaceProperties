@@ -1,0 +1,15 @@
+cd "$(dirname "$0")" || exit 1
+
+cd interfaceProperties
+wclean
+rm $FOAM_USER_LIBBIN/libinterfaceProperties.so
+
+cd ../interFoam
+wclean
+rm $FOAM_USER_APPBIN/interFoam
+
+cd overInterDyMFoam
+wclean
+rm $FOAM_USER_APPBIN/overInterDyMFoam
+
+cd ../..
