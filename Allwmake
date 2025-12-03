@@ -7,7 +7,7 @@ cd ../interFoam
 
 wmake
 
-cd overInterDyMFoam
+cd ../overInterDyMFoam
 wmake
 
-cd ../.. 
+cd ../

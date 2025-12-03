@@ -8,8 +8,8 @@ cd ../interFoam
 wclean
 rm $FOAM_USER_APPBIN/interFoam
 
-cd overInterDyMFoam
+cd ../overInterDyMFoam
 wclean
 rm $FOAM_USER_APPBIN/overInterDyMFoam
 
-cd ../..
+cd ../
